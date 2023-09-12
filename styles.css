@@ -1,0 +1,88 @@
+.background{
+    margin:20px;
+    background-color:whitesmoke;
+    width:auto;
+    height: 87vh;
+    border-radius: 50px;
+}
+img{
+    width: 100;
+    height: 18vh;
+    margin: 55px;
+}
+.side{
+    display: flex;
+    flex-direction:row;
+}
+.innerside{
+    display: flex;
+    flex-direction:row;
+}
+
+.details p span,.outerside p{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.details p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.details{
+    margin-top: 40px;
+}
+.outerside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-shadow: 0dvi;
+}
+
+.skills{
+    margin-left: 45px;
+}
+.skills div label{
+    padding-top: 18px;
+    padding-bottom: 5px
+}
+
+.about{
+    margin-top:45px;
+    margin-left: 150px;
+}
+.about span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.about p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:200 ;
+    padding-left: 1px;
+    padding-right:50px ;
+    padding-top: 20px;
+}
+
+footer{
+    background-color:#333;
+}
+footer p,i{
+    color: whitesmoke;
+}
+.cont{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.cont ul li{
+    color:whitesmoke;
+}
+.cont ul li i{
+    color: whitesmoke;
+}
